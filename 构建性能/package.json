@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dll": "webpack --config webpack.dll.config.js"
+    "dll": "webpack --config webpack.dll.config.js",
+    "app": "webpack --config webpack.app.config.js",
+    "splitChunks": "webpack --config webpack.splitChunks.config.js"
   },
   "author": "",
   "license": "ISC",
